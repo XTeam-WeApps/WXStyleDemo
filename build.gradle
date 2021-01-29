@@ -3,7 +3,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://mirrors.tencent.com/repository/maven/weapps' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:3.4.0"
@@ -15,9 +14,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven {
-            url 'https://mirrors.tencent.com/repository/maven/weapps'
-        }
         google()
         jcenter()
 
